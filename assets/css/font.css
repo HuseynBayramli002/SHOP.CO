@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Satoshi";
+    font-weight: 400;
+    src: url("../font/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: "Satoshi";
+    font-weight: 500;
+    src: url("../font/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: "Satoshi";
+    font-weight: 700;
+    src: url("../font/Satoshi-Variable.ttf");
+}
+@font-face {
+    font-family: "Integral CF";
+    font-weight: 700;
+    src: url("../font/Integral\ CF\ Bold.ttf");
+}
