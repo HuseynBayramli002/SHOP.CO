@@ -43,7 +43,6 @@
 
 .navbar__tool__link {
     gap: 6px;
-    color: #000;
 }
 
 .navbar__form {
@@ -77,6 +76,7 @@
     background-position: center;
     background-size: cover;
     background-image: url('../images/Rectangle 2.png');
+    background-color:#F2F0F1;
     position: relative;
 }
 
@@ -215,4 +215,8 @@
     background-color: #FFF;
     border: 1px solid rgba(0, 0, 0, 0.10);
     margin: 35px auto 80px;
+}
+.main__btn:hover {
+    color: #fff;
+    background-color: #000;
 }
