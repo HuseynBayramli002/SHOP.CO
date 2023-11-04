@@ -51,3 +51,10 @@ p {
     color: #000;
     background-color: #FFF;
 }
+.title{
+    margin: 70px 0 55px;
+    text-align: center;
+    font-family: Integral CF;
+    font-size: 48px;
+    font-weight: 700;
+}
