@@ -72,9 +72,6 @@
 
 /* ? Header section */
 .header {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   background-image: url("../images/Rectangle 2.png");
   background-color: #f2f0f1;
   position: relative;
@@ -216,4 +213,78 @@
 }
 .main > hr {
   background-color: rgba(0, 0, 0, 0.1);
+}
+/* ? Activite section */
+.activite {
+  border-radius: 40px;
+  background-color: #f0f0f0;
+}
+.activite__title {
+  padding-top: 60px;
+}
+.activite__boxs {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.activite__box {
+  height: 300px;
+  border-radius: 40px;
+}
+.activite__box-title {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 25px 0 0 35px;
+}
+.activite__box:nth-child(1) {
+  width: 354px;
+  background-image: url(../images/image\ 11.png);
+}
+.activite__box:nth-child(2) {
+  width: 684px;
+  background-image: url(../images/image\ 13.png);
+}
+.activite__box:nth-child(3) {
+  width: 684px;
+  background-image: url(../images/image\ 12.png);
+  margin-bottom: 70px;
+}
+.activite__box:nth-child(4) {
+  width: 354px;
+  background-image: url(../images/image\ 14.png);
+  margin-bottom: 70px;
+}
+/* ? Client comment */
+.client {
+}
+.client__title-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 50px 0 55px;
+}
+.client__title {
+  margin: 0;
+}
+.client__boxs {
+  display: flex;
+  gap: 20px;
+}
+.client__box {
+  width: 400px;
+  height: 240px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 28px 32px;
+}
+.client__box__name {
+  display: flex;
+  align-items: center;
+  margin: 20px auto 15px;
+  > p {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+.client__box__comment {
+  color: rgba(0, 0, 0, 0.6);
 }
