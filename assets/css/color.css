@@ -1,0 +1,21 @@
+:root{
+    --dark-color:#000;
+    --light-color: #fff;
+    --hover-color:#fd7171;
+    --form-color:#f0f0f0 ;
+    --input-color:#00000066;
+    --header-color:#f2f0f1;
+    --text-color:#00000099;
+    --intermission-color:#0000001a;
+    --heed-color:#f33;
+    --lightheed-color:#ff33331a;
+}
+
+
+/*          var(--dark-color)      
+            var(--light-color)
+            var(--hover-color)
+            var(--input-color)
+            var(--header-color)
+            var(--intermission-color)
+*/
