@@ -154,8 +154,8 @@
 
 .main__box-img {
   border-radius: 10px;
-  width: 295px;
-  height: 298px;
+  width: 46dvh;
+  height: 46dvh;
 }
 
 .main__box__produce-value {
@@ -387,7 +387,8 @@
     margin-bottom: 25px;
   }
 }
+/* ? Footer section  */
 .footer{
-  margin: 25px auto 80px;
+  margin: 25px auto 60px;
   justify-content: space-between;
 }

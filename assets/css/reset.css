@@ -58,7 +58,7 @@ p {
   color: var(--light-color);
   border-radius: 60px;
   background-color: var(--dark-color) ;
-  border: 1px solid var( var(--intermission-color));
+  border: 1px solid var(--intermission-color);
   font-weight: 500;
   cursor: pointer;
   transition: all 0.4s ease;
