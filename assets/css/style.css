@@ -379,12 +379,15 @@
   flex-direction: column;
   align-items: start;
   gap: 10px;
-  >a{
+  >li>a{
     color: var(--text-color);
   }
-  >a:nth-child(1){
-    color:var(--dark-color)     ;
+  >li:nth-child(1){
     margin-bottom: 25px;
+    >a{
+      font-weight: 500;
+      color:var(--dark-color);
+    }
   }
 }
 /* ? Footer section  */
