@@ -75,7 +75,7 @@
 .navbar__icon {
   gap: 15px;
 }
-.navbar__icon:nth-child(1) {
+.navbar__icon i:nth-child(1) {
   display: none;
 }
 
@@ -427,6 +427,9 @@
   }
   .navbar__form {
     display: none;
+  }
+  .navbar__icon i:nth-child(1){
+    display: block;
   }
   /* ? Header section */
   .header__img-content {
